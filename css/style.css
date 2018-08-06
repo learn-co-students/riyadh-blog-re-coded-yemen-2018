@@ -9,8 +9,10 @@ body {
   background: url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
+    background-color:black;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+    
 }
 
 .wrapper {
@@ -21,11 +23,16 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  
+    background: linear-gradient( black, #648880 , #293f50);
+    border-radius: 12px 12px;
+   
 }
-
+#contemt:hover{
+     box-shadow: 5px 5px white;
+}
 h1, h2 {
-  font-family: 'Gabriela', serif;
+  font-family:monospace;
   color: #fff;
 }
 
@@ -53,6 +60,7 @@ img {
 
 p {
   font-size: 1em;
+    font-family: cursive;
 }
 
 a {
@@ -61,6 +69,7 @@ a {
 }
 
 a:hover {
+    color:blue;
   text-decoration: underline;
 }
 
